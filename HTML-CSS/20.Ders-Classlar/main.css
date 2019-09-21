@@ -1,0 +1,25 @@
+#blue{ <!--  ID -->
+    color : blue;
+    text-decoration: underline;
+    background-color: black;
+}
+.red{
+    color :red;
+    background-color: magenta;
+}
+.yellow{
+    color :yellow;
+    background-color: black;
+}
+div p {
+    color: red;
+}
+p{
+    color: blue;
+}
+.red p{
+    color: red;
+}
+#blue p{
+    color: blue;
+}

@@ -1,0 +1,28 @@
+h1{
+    background-color: yellow;
+    padding: 10px 40px;
+    border-top: 4px solid green;
+    border-bottom: 8px groove orange;
+
+    margin: 0px;  /* 50 px asğıdan yukarıdan soldan sağdan başlıcak*/
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+div{
+    border: 2px groove red;
+    background-color: #f01c43;
+    width: 150px;
+    height: 150px;
+    padding: 75px 75px 75px 75px;
+    margin: 5px;
+}
+span{
+    text-decoration: underline;
+}

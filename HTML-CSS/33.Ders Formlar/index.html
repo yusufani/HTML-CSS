@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<form action="gönder.php" method="post">
+    Kullanıcı Adı:<input type="text" name="kullanıcı_Adı" size="100"/><br/>
+    Parola:<input type="password" name="parola" maxlength="10"/>
+</form>
+
+
+<form action="" method="" >
+    Yemek Listesi <br>
+    <select name ="yemek" multiple size="10">
+        <optgroup label="Ana Yemekler">
+        <option value="yemek1">İskender</option>
+        <option value="yemek2">Mantı</option>
+            </optgroup>
+        <optgroup label="Çorbalar">
+        <option value="yemek3" selected>Çorba</option>
+        </optgroup>
+
+    </select>
+
+</form>
+
+<form>
+Hobileriniz nelerdir ? <br>
+    Basketbol <input type="checkbox" name="hobiler" value="basket"  checked/>
+    Futbol <input type="checkbox" name="hobiler" value="basket" />
+    Voleybol <input type="checkbox" name="hobiler" value="basket" />
+    Tenis <input type="checkbox" name="hobiler" value="basket" />
+
+    <br>
+    Sık sık tiyatroya gider misiniz ? <br>
+    Evet <input type="radio" name="tiyatro" value="evet">
+    Hayır <input type="radio" name="tiyatro" value="evet">
+
+
+
+</form>
+
+
+<form action="" method="">
+    <input type="submit" value="gonder">
+    <input type="file">
+    <input type="reset" value="Sıfırla">
+</form>
+</body>
+</html>

@@ -1,0 +1,11 @@
+h1{
+    background-color: blue;
+    padding: 10px 30px 10px 60px ; /* Yukarı sağ alt sol */
+    /*border-style: solid; /* dashed dotted rich *//*
+    border-width: 8px;
+    border-color: crimson;*/
+    border-top : 10px dotted red;
+    border-bottom: 10px groove yellow;
+    border-left: 20px solid;
+    border-right: 8px dashed;
+}
